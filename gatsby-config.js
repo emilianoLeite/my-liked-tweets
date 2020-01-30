@@ -1,6 +1,13 @@
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
+const credentials = {
+  consumer_key: process.env.TWITTER_CONSUMER_KEY,
+  consumer_secret: process.env.TWITTER_CONSUMER_SECRET_KEY,
+  bearer_token: process.env.TWITTER_BEARER_TOKEN,
+}
+
+console.log("\n\n\n creds", credentials, "\n\n\n")
 
 module.exports = {
   siteMetadata: {
@@ -57,6 +64,12 @@ module.exports = {
             params: {
               q: "#gatsbyjs",
               tweet_mode: "extended",
+            },
+          },
+          myLikes: {
+            endpoint: "favorites/list",
+            params: {
+              count: "20",
             },
           },
         },
