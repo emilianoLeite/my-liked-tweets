@@ -12,6 +12,11 @@ Kick off your project with this default boilerplate. This starter ships with the
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.org/docs/gatsby-starters/)._
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/977efe84-b047-454c-b3da-6b2d905c48e5/deploy-status)](https://app.netlify.com/sites/emiliano-twitter-likes/deploys)
+
+
+### [Roadmap](./ROADMAP.md)
+
 ## 🚀 Quick start
 
 1.  **Create a Gatsby site.**

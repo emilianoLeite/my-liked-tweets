@@ -1,0 +1,30 @@
+
+.tweet {
+  padding: 0.5em;
+  border-bottom: 1px solid lightgrey;
+  max-width: 600px;
+
+  &:last-of-type {
+    border-bottom: none;
+  }
+  
+  p {
+    margin-bottom: 1em;
+  }
+
+  header a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    &.userName {
+      margin: 1px;
+      display: inline-block;
+    }
+  }
+
+  .handle {
+    color: lightseagreen
+  }
+}
