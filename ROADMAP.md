@@ -1,3 +1,4 @@
-- [X] Display liked tweets
+- [x] Display liked tweets
 - [ ] Improve `gatsby-source-twitter`'s doc regarding querying for personal information
-- [ ] Correctly sort by tweet's created_at 
+- [ ] How to trigger a Gatsby rebuild when I like new tweets
+- [ ] Correctly sort by tweet's created_at
